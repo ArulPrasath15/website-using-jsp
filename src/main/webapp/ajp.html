@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title>Meeting Registration</title>
+	<style type="text/css">
+		.form{
+			margin: 0 auto;
+			width:500px;}
+		.form label{
+			display: inline-block;
+			text-align:right;
+			float:left;}
+		.form input{
+			display:inline-block;
+			text-align:left;
+			float:right;
+			border-top-style: hidden;
+        		border-right-style: hidden;
+        		border-left-style: hidden;
+        		border-bottom-style: groove;
+    			}
+		.form select{
+			min-width: 320px;
+			display:inline-block;
+			text-align:left;
+			float:right;
+			border-top-style: hidden;
+        		border-right-style: hidden;
+        		border-left-style: hidden;
+        		border-bottom-style: groove;
+    			}
+		#l1{
+			margin-right:310px;
+			
+			}
+		#l2{
+			float:right;
+			margin-right:270px;
+			margin-top:-13px;	
+			}
+		#l3{
+			margin-right:200px;
+			margin-top:-16px;
+			
+			}
+		#l4{
+			
+			float:right;
+			margin-right:145px;
+			margin-top:-19px;
+			}
+		#l5{
+			margin-right:310px;
+			
+			}
+		#l6{
+			float:right;
+			margin-right:257px;
+			margin-top:-17px;
+			}
+		#l7{
+			margin-right:210px;
+			margin-top:-16px;
+			}
+		#l8{
+			float:right;
+			margin-right:160px;
+			margin-top:-19px;
+			}
+		#l9{
+			margin-right:110px;
+			margin-top:-16px;
+			}
+		#l10{
+			float:right;
+			margin-right:68px;
+			margin-top:-19px;
+			}
+		#l11{
+			
+			margin-right:305px;
+			margin-top:-7px;
+			}
+		
+		#l12{
+			float:right;
+			margin-right:78px;
+			margin-top:-17px;
+			}
+		#l13{
+			margin-right:78px;
+			margin-top:-17px;
+			}
+		
+	</style>
+</head>
+<body bgcolor="lightblue">
+	<h1><center>Registration Form</center></h1>
+	<form action="reg" method="get">
+	<div class="form">
+		<label>Full Name</label>
+		<input type="text" name="lname" placeholder="Lastname">
+		<input type="text" name="fname" placeholder="Firstname"><br><br>
+		<label>Company</label>
+		<input type="text" name="cname" placeholder="Your company name" size="45"><br><br>
+		<label>Email</label>
+		<input type="text" name="email" placeholder="email@example.com" size="45"><br><br>
+		<label>Phone number</label>
+		<input type="text" name="p1" placeholder="+xxxxxxxxxxxx" size="45"><br><br>
+		<label>Country</label>
+		<select name="country">
+		<option value="" disabled selected hidden>click to choose</option>
+		<option value="India">India</option>
+		<option value="USA">USA</option>
+		<option value="India">Australia</option>
+		</select><br><br>
+		<label>Sex</label>
+		<input id="l1"type="radio" checked id="male" name="gender" value="male">
+		<label id="l2" >Male</label>
+		<input id="l3"type="radio" id="female" name="gender" value="female">
+		<label id="l4">Female</label><br><br>
+		<label>Language</label>
+		<input id="l5"type="checkbox"checked   name="L1" value="English">
+		<label id="l6">English</label>
+		<input id="l7" type="checkbox" name="L1" value="French">
+		<label id="l8">French</label>
+		<input id="l9"type="checkbox" name="L1" value="Other">
+		<label id="l10">Other</label><br><br>
+		<label>Comment</label>
+		<input type="text" name="com" placeholder="say hello" size="45"><br><br>
+		<input id="l11"type="checkbox" name="tc" value="Yes">
+		<label id="l12">I agree with <span style="color:blue;">Terms and Conditions</span></label><br><br>
+	</div>	
+		<center><input type="submit" value="Register">
+		<button onclick="location.href ='display1';" >Display</button>
+		<input type="reset" value="Reset"></center>
+	</form>
+		
+	
+</body>
+</html>
+		
+		
